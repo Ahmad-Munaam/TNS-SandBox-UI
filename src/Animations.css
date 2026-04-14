@@ -1,0 +1,95 @@
+@keyframes heroAnimation {
+    from {
+        /* transform: scale(0);
+        opacity: 0; */
+
+        transform: translateX(100%);
+    }
+    to {
+        /* transform: scale(1);
+        opacity: 1; */
+        transform: translateX(0);
+
+    }
+}
+
+.heroAnimationRight {
+    animation: heroAnimation 1.5s ease-in 0s 1 forwards;
+}
+
+@keyframes heroAnimationLeft {
+    from {
+        /* transform: ; */
+       transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+.heroAnimationLeft {
+    animation: heroAnimationLeft 1.5s ease-in 0s 1 forwards;
+}
+
+@keyframes servicesCardsAnimation {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+
+}
+
+.servicesCardsAnimation {
+    animation: servicesCardsAnimation 2s ease-in 0s 1 forwards;
+}
+
+@keyframes teamCardsAnimation {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+.teamCardsAnimation{
+    animation: teamCardsAnimation 2s ease-in 0s 1 forwards;
+}
+
+@keyframes headerAnimation {
+    from {
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+.headerAnimation{
+    animation: headerAnimation 0.7s ease-in-out 0s 1 forwards ;
+    transition: headerAnimation 500 ease-in;
+
+}
+
+@keyframes headerCloseAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+    
+}
+.headerCloseAnimation{
+    animation: headerCloseAnimation 0.7s ease-in-out 0s 1 forwards ;
+    transition: headerCloseAnimation 500 ease-in;
+
+}

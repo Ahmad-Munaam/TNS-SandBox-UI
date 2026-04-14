@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.teamCardShadow{
+box-shadow: 1px 54px 400px -105px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 54px 400px -105px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 54px 400px -105px rgba(0,0,0,0.75);
+}
+html{
+    scroll-behavior: smooth;
+}
